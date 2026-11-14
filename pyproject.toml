@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spotpilot"
+version = "0.1.0"
+description = "Reinforcement learning for budget-constrained cloud scheduling with spot interruptions"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Tabish Syed"}]
+dependencies = ["numpy>=1.24,<3", "gymnasium==1.2.3"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+spotpilot = "spotpilot.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["spotpilot*"]

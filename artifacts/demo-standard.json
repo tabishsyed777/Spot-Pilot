@@ -1,0 +1,1985 @@
+{
+  "result": {
+    "seed": 700001,
+    "return_": 38.02000000000001,
+    "completed": 11,
+    "missed": 1,
+    "spent": 183,
+    "lost_work": 4,
+    "interruptions": 1,
+    "budget_rejections": 0,
+    "completion_rate": 0.9166666666666666,
+    "audit_success": true
+  },
+  "scenario": {
+    "seed": 700001,
+    "suite": "standard",
+    "horizon": 48,
+    "budget": 220,
+    "jobs": [
+      {
+        "id": 0,
+        "arrival": 20,
+        "work": 5,
+        "deadline": 35
+      },
+      {
+        "id": 1,
+        "arrival": 20,
+        "work": 8,
+        "deadline": 41
+      },
+      {
+        "id": 2,
+        "arrival": 2,
+        "work": 5,
+        "deadline": 23
+      },
+      {
+        "id": 3,
+        "arrival": 13,
+        "work": 7,
+        "deadline": 34
+      },
+      {
+        "id": 4,
+        "arrival": 15,
+        "work": 8,
+        "deadline": 44
+      },
+      {
+        "id": 5,
+        "arrival": 8,
+        "work": 7,
+        "deadline": 27
+      },
+      {
+        "id": 6,
+        "arrival": 18,
+        "work": 6,
+        "deadline": 42
+      },
+      {
+        "id": 7,
+        "arrival": 2,
+        "work": 8,
+        "deadline": 28
+      },
+      {
+        "id": 8,
+        "arrival": 9,
+        "work": 4,
+        "deadline": 34
+      },
+      {
+        "id": 9,
+        "arrival": 16,
+        "work": 4,
+        "deadline": 32
+      },
+      {
+        "id": 10,
+        "arrival": 10,
+        "work": 6,
+        "deadline": 28
+      },
+      {
+        "id": 11,
+        "arrival": 6,
+        "work": 8,
+        "deadline": 23
+      }
+    ],
+    "prices": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "risks": [
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.06,
+      0.06,
+      0.06,
+      0.06,
+      0.06,
+      0.06,
+      0.06,
+      0.06,
+      0.06,
+      0.06,
+      0.06,
+      0.06,
+      0.06,
+      0.06,
+      0.06,
+      0.06
+    ],
+    "draws": [
+      [
+        0.6875735508190352,
+        0.10170161546655498
+      ],
+      [
+        0.9621815086935825,
+        0.968988920131446
+      ],
+      [
+        0.4050682999151447,
+        0.5689207226738121
+      ],
+      [
+        0.9664568737971868,
+        0.08442879445843787
+      ],
+      [
+        0.5324166863870412,
+        0.6638216760861098
+      ],
+      [
+        0.6750827175532186,
+        0.12301777292553662
+      ],
+      [
+        0.9713099706160695,
+        0.1503181472412045
+      ],
+      [
+        0.858845671131195,
+        0.20013295810934972
+      ],
+      [
+        0.6374647701032472,
+        0.2559276421026364
+      ],
+      [
+        0.5385286779813847,
+        0.2858284925781974
+      ],
+      [
+        0.3949701205178804,
+        0.7907734050650764
+      ],
+      [
+        0.4612016811312617,
+        0.9975203982576627
+      ],
+      [
+        0.8563086987808121,
+        0.10780892907724149
+      ],
+      [
+        0.36875922849763165,
+        0.07735714601462118
+      ],
+      [
+        0.1752422158181972,
+        0.20064720335690955
+      ],
+      [
+        0.17263160914880082,
+        0.19607773021778374
+      ],
+      [
+        0.9493134719718059,
+        0.1722431480109533
+      ],
+      [
+        0.5034463783296981,
+        0.7797903838437888
+      ],
+      [
+        0.9916091879607991,
+        0.34402697361831935
+      ],
+      [
+        0.17192118000987477,
+        0.23958325965666427
+      ],
+      [
+        0.04510358644881807,
+        0.868823206290485
+      ],
+      [
+        0.26492799126391486,
+        0.647967706157068
+      ],
+      [
+        0.8774871520538388,
+        0.13381850835020004
+      ],
+      [
+        0.2604179128328049,
+        0.05435257884298317
+      ],
+      [
+        0.06185957746451021,
+        0.1351263674551414
+      ],
+      [
+        0.6139695383936857,
+        0.7338130975234793
+      ],
+      [
+        0.5377059129355829,
+        0.02776861633297767
+      ],
+      [
+        0.21521955963149775,
+        0.9743212132464151
+      ],
+      [
+        0.23745761618650585,
+        0.7606877817954254
+      ],
+      [
+        0.723174377683079,
+        0.506306511969605
+      ],
+      [
+        0.3205840879508812,
+        0.5955097463280765
+      ],
+      [
+        0.4420713533987901,
+        0.9362608876794591
+      ],
+      [
+        0.3636572694198864,
+        0.6099652255354667
+      ],
+      [
+        0.7211363687667537,
+        0.8877304668304651
+      ],
+      [
+        0.775347935425918,
+        0.6366519902122014
+      ],
+      [
+        0.7497622923218694,
+        0.8926873398215176
+      ],
+      [
+        0.14766968053023877,
+        0.11630349221857772
+      ],
+      [
+        0.10027997391246712,
+        0.01596702004980688
+      ],
+      [
+        0.028058937807187823,
+        0.3710557776477452
+      ],
+      [
+        0.9007461038224804,
+        0.0024381586442705494
+      ],
+      [
+        0.7494586747719064,
+        0.0906096103722408
+      ],
+      [
+        0.6446052439424407,
+        0.23808575566300028
+      ],
+      [
+        0.22162415488877418,
+        0.30997761470738927
+      ],
+      [
+        0.7796304878818996,
+        0.5407972663533563
+      ],
+      [
+        0.09818926914658643,
+        0.2530866049182763
+      ],
+      [
+        0.6999319303899555,
+        0.8644766153758029
+      ],
+      [
+        0.39116190857258215,
+        0.42247170299316605
+      ],
+      [
+        0.6098816792367209,
+        0.8150994503425084
+      ]
+    ],
+    "on_demand_price": 6,
+    "checkpoint_storage_price": 1
+  },
+  "ledger": [
+    {
+      "t": 0,
+      "action": 1,
+      "cost": 0,
+      "spent": 0,
+      "reward": 0.0,
+      "events": []
+    },
+    {
+      "t": 1,
+      "action": 1,
+      "cost": 0,
+      "spent": 0,
+      "reward": 0.0,
+      "events": []
+    },
+    {
+      "t": 2,
+      "action": 2,
+      "cost": 6,
+      "spent": 6,
+      "reward": -0.12,
+      "events": [
+        {
+          "type": "assign",
+          "slot": 0,
+          "job": 2,
+          "kind": "spot"
+        },
+        {
+          "type": "assign",
+          "slot": 1,
+          "job": 7,
+          "kind": "spot"
+        },
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 2,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 2,
+          "progress": 1
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 7,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 7,
+          "progress": 1
+        }
+      ]
+    },
+    {
+      "t": 3,
+      "action": 2,
+      "cost": 6,
+      "spent": 12,
+      "reward": -0.12,
+      "events": [
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 2,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 2,
+          "progress": 2
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 7,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 7,
+          "progress": 2
+        }
+      ]
+    },
+    {
+      "t": 4,
+      "action": 2,
+      "cost": 6,
+      "spent": 18,
+      "reward": -0.12,
+      "events": [
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 2,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 2,
+          "progress": 3
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 7,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 7,
+          "progress": 3
+        }
+      ]
+    },
+    {
+      "t": 5,
+      "action": 2,
+      "cost": 6,
+      "spent": 24,
+      "reward": -0.12,
+      "events": [
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 2,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 2,
+          "progress": 4
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 7,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 7,
+          "progress": 4
+        }
+      ]
+    },
+    {
+      "t": 6,
+      "action": 2,
+      "cost": 6,
+      "spent": 30,
+      "reward": 3.88,
+      "events": [
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 2,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 2,
+          "progress": 5
+        },
+        {
+          "type": "complete",
+          "slot": 0,
+          "job": 2,
+          "time": 7
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 7,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 7,
+          "progress": 5
+        }
+      ]
+    },
+    {
+      "t": 7,
+      "action": 2,
+      "cost": 6,
+      "spent": 36,
+      "reward": -0.12,
+      "events": [
+        {
+          "type": "assign",
+          "slot": 0,
+          "job": 11,
+          "kind": "spot"
+        },
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 11,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 11,
+          "progress": 1
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 7,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 7,
+          "progress": 6
+        }
+      ]
+    },
+    {
+      "t": 8,
+      "action": 2,
+      "cost": 6,
+      "spent": 42,
+      "reward": -0.12,
+      "events": [
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 11,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 11,
+          "progress": 2
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 7,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 7,
+          "progress": 7
+        }
+      ]
+    },
+    {
+      "t": 9,
+      "action": 2,
+      "cost": 6,
+      "spent": 48,
+      "reward": 3.88,
+      "events": [
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 11,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 11,
+          "progress": 3
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 7,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 7,
+          "progress": 8
+        },
+        {
+          "type": "complete",
+          "slot": 1,
+          "job": 7,
+          "time": 10
+        }
+      ]
+    },
+    {
+      "t": 10,
+      "action": 2,
+      "cost": 6,
+      "spent": 54,
+      "reward": -0.12,
+      "events": [
+        {
+          "type": "assign",
+          "slot": 1,
+          "job": 5,
+          "kind": "spot"
+        },
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 11,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 11,
+          "progress": 4
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 5,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 5,
+          "progress": 1
+        }
+      ]
+    },
+    {
+      "t": 11,
+      "action": 2,
+      "cost": 6,
+      "spent": 60,
+      "reward": -0.12,
+      "events": [
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 11,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 11,
+          "progress": 5
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 5,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 5,
+          "progress": 2
+        }
+      ]
+    },
+    {
+      "t": 12,
+      "action": 2,
+      "cost": 6,
+      "spent": 66,
+      "reward": -0.12,
+      "events": [
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 11,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 11,
+          "progress": 6
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 5,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 5,
+          "progress": 3
+        }
+      ]
+    },
+    {
+      "t": 13,
+      "action": 2,
+      "cost": 6,
+      "spent": 72,
+      "reward": -0.12,
+      "events": [
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 11,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 11,
+          "progress": 7
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 5,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 5,
+          "progress": 4
+        }
+      ]
+    },
+    {
+      "t": 14,
+      "action": 2,
+      "cost": 6,
+      "spent": 78,
+      "reward": 3.88,
+      "events": [
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 11,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 11,
+          "progress": 8
+        },
+        {
+          "type": "complete",
+          "slot": 0,
+          "job": 11,
+          "time": 15
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 5,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 5,
+          "progress": 5
+        }
+      ]
+    },
+    {
+      "t": 15,
+      "action": 2,
+      "cost": 6,
+      "spent": 84,
+      "reward": -0.12,
+      "events": [
+        {
+          "type": "assign",
+          "slot": 0,
+          "job": 10,
+          "kind": "spot"
+        },
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 10,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 10,
+          "progress": 1
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 5,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 5,
+          "progress": 6
+        }
+      ]
+    },
+    {
+      "t": 16,
+      "action": 2,
+      "cost": 2,
+      "spent": 86,
+      "reward": 3.96,
+      "events": [
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 10,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 10,
+          "progress": 2
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 5,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 5,
+          "progress": 7
+        },
+        {
+          "type": "complete",
+          "slot": 1,
+          "job": 5,
+          "time": 17
+        }
+      ]
+    },
+    {
+      "t": 17,
+      "action": 2,
+      "cost": 2,
+      "spent": 88,
+      "reward": -0.04,
+      "events": [
+        {
+          "type": "assign",
+          "slot": 1,
+          "job": 9,
+          "kind": "spot"
+        },
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 10,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 10,
+          "progress": 3
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 9,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 9,
+          "progress": 1
+        }
+      ]
+    },
+    {
+      "t": 18,
+      "action": 2,
+      "cost": 2,
+      "spent": 90,
+      "reward": -0.04,
+      "events": [
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 10,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 10,
+          "progress": 4
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 9,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 9,
+          "progress": 2
+        }
+      ]
+    },
+    {
+      "t": 19,
+      "action": 2,
+      "cost": 2,
+      "spent": 92,
+      "reward": -0.04,
+      "events": [
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 10,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 10,
+          "progress": 5
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 9,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 9,
+          "progress": 3
+        }
+      ]
+    },
+    {
+      "t": 20,
+      "action": 2,
+      "cost": 2,
+      "spent": 94,
+      "reward": 7.96,
+      "events": [
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 10,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 10,
+          "progress": 6
+        },
+        {
+          "type": "complete",
+          "slot": 0,
+          "job": 10,
+          "time": 21
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 9,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 9,
+          "progress": 4
+        },
+        {
+          "type": "complete",
+          "slot": 1,
+          "job": 9,
+          "time": 21
+        }
+      ]
+    },
+    {
+      "t": 21,
+      "action": 2,
+      "cost": 2,
+      "spent": 96,
+      "reward": -0.04,
+      "events": [
+        {
+          "type": "assign",
+          "slot": 0,
+          "job": 3,
+          "kind": "spot"
+        },
+        {
+          "type": "assign",
+          "slot": 1,
+          "job": 8,
+          "kind": "spot"
+        },
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 3,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 3,
+          "progress": 1
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 8,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 8,
+          "progress": 1
+        }
+      ]
+    },
+    {
+      "t": 22,
+      "action": 2,
+      "cost": 2,
+      "spent": 98,
+      "reward": -0.04,
+      "events": [
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 3,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 3,
+          "progress": 2
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 8,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 8,
+          "progress": 2
+        }
+      ]
+    },
+    {
+      "t": 23,
+      "action": 2,
+      "cost": 2,
+      "spent": 100,
+      "reward": -0.04,
+      "events": [
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 3,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 3,
+          "progress": 3
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 8,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 8,
+          "progress": 3
+        }
+      ]
+    },
+    {
+      "t": 24,
+      "action": 2,
+      "cost": 6,
+      "spent": 106,
+      "reward": 3.88,
+      "events": [
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 3,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 3,
+          "progress": 4
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 8,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 8,
+          "progress": 4
+        },
+        {
+          "type": "complete",
+          "slot": 1,
+          "job": 8,
+          "time": 25
+        }
+      ]
+    },
+    {
+      "t": 25,
+      "action": 2,
+      "cost": 6,
+      "spent": 112,
+      "reward": -0.12,
+      "events": [
+        {
+          "type": "assign",
+          "slot": 1,
+          "job": 0,
+          "kind": "spot"
+        },
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 3,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 3,
+          "progress": 5
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 0,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 0,
+          "progress": 1
+        }
+      ]
+    },
+    {
+      "t": 26,
+      "action": 2,
+      "cost": 6,
+      "spent": 118,
+      "reward": -0.12,
+      "events": [
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 3,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 3,
+          "progress": 6
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 0,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 0,
+          "progress": 2
+        }
+      ]
+    },
+    {
+      "t": 27,
+      "action": 2,
+      "cost": 6,
+      "spent": 124,
+      "reward": 3.88,
+      "events": [
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 3,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 3,
+          "progress": 7
+        },
+        {
+          "type": "complete",
+          "slot": 0,
+          "job": 3,
+          "time": 28
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 0,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 0,
+          "progress": 3
+        }
+      ]
+    },
+    {
+      "t": 28,
+      "action": 2,
+      "cost": 6,
+      "spent": 130,
+      "reward": -0.12,
+      "events": [
+        {
+          "type": "assign",
+          "slot": 0,
+          "job": 1,
+          "kind": "spot"
+        },
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 1,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 1,
+          "progress": 1
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 0,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 0,
+          "progress": 4
+        }
+      ]
+    },
+    {
+      "t": 29,
+      "action": 2,
+      "cost": 6,
+      "spent": 136,
+      "reward": 3.88,
+      "events": [
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 1,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 1,
+          "progress": 2
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 0,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 0,
+          "progress": 5
+        },
+        {
+          "type": "complete",
+          "slot": 1,
+          "job": 0,
+          "time": 30
+        }
+      ]
+    },
+    {
+      "t": 30,
+      "action": 2,
+      "cost": 6,
+      "spent": 142,
+      "reward": -0.12,
+      "events": [
+        {
+          "type": "assign",
+          "slot": 1,
+          "job": 6,
+          "kind": "spot"
+        },
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 1,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 1,
+          "progress": 3
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 6,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 6,
+          "progress": 1
+        }
+      ]
+    },
+    {
+      "t": 31,
+      "action": 2,
+      "cost": 6,
+      "spent": 148,
+      "reward": -0.12,
+      "events": [
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 1,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 1,
+          "progress": 4
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 6,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 6,
+          "progress": 2
+        }
+      ]
+    },
+    {
+      "t": 32,
+      "action": 2,
+      "cost": 6,
+      "spent": 154,
+      "reward": -0.12,
+      "events": [
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 1,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 1,
+          "progress": 5
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 6,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 6,
+          "progress": 3
+        }
+      ]
+    },
+    {
+      "t": 33,
+      "action": 2,
+      "cost": 6,
+      "spent": 160,
+      "reward": -0.12,
+      "events": [
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 1,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 1,
+          "progress": 6
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 6,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 6,
+          "progress": 4
+        }
+      ]
+    },
+    {
+      "t": 34,
+      "action": 2,
+      "cost": 6,
+      "spent": 166,
+      "reward": -0.12,
+      "events": [
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 1,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 1,
+          "progress": 7
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 6,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 6,
+          "progress": 5
+        }
+      ]
+    },
+    {
+      "t": 35,
+      "action": 2,
+      "cost": 6,
+      "spent": 172,
+      "reward": 7.88,
+      "events": [
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 1,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 1,
+          "progress": 8
+        },
+        {
+          "type": "complete",
+          "slot": 0,
+          "job": 1,
+          "time": 36
+        },
+        {
+          "type": "execute",
+          "slot": 1,
+          "job": 6,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 1,
+          "job": 6,
+          "progress": 6
+        },
+        {
+          "type": "complete",
+          "slot": 1,
+          "job": 6,
+          "time": 36
+        }
+      ]
+    },
+    {
+      "t": 36,
+      "action": 2,
+      "cost": 3,
+      "spent": 175,
+      "reward": -0.06,
+      "events": [
+        {
+          "type": "assign",
+          "slot": 0,
+          "job": 4,
+          "kind": "spot"
+        },
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 4,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 4,
+          "progress": 1
+        }
+      ]
+    },
+    {
+      "t": 37,
+      "action": 2,
+      "cost": 3,
+      "spent": 178,
+      "reward": -0.06,
+      "events": [
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 4,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 4,
+          "progress": 2
+        }
+      ]
+    },
+    {
+      "t": 38,
+      "action": 2,
+      "cost": 3,
+      "spent": 181,
+      "reward": -0.22,
+      "events": [
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 4,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": true
+        },
+        {
+          "type": "release",
+          "slot": 0,
+          "job": 4,
+          "reason": "interruption",
+          "lost": 2
+        }
+      ]
+    },
+    {
+      "t": 39,
+      "action": 0,
+      "cost": 0,
+      "spent": 181,
+      "reward": 0.0,
+      "events": []
+    },
+    {
+      "t": 40,
+      "action": 2,
+      "cost": 1,
+      "spent": 182,
+      "reward": -0.02,
+      "events": [
+        {
+          "type": "assign",
+          "slot": 0,
+          "job": 4,
+          "kind": "spot"
+        },
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 4,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 4,
+          "progress": 1
+        }
+      ]
+    },
+    {
+      "t": 41,
+      "action": 0,
+      "cost": 0,
+      "spent": 182,
+      "reward": -0.08,
+      "events": [
+        {
+          "type": "release",
+          "slot": 0,
+          "job": 4,
+          "reason": "resize",
+          "lost": 1
+        }
+      ]
+    },
+    {
+      "t": 42,
+      "action": 2,
+      "cost": 1,
+      "spent": 183,
+      "reward": -0.02,
+      "events": [
+        {
+          "type": "assign",
+          "slot": 0,
+          "job": 4,
+          "kind": "spot"
+        },
+        {
+          "type": "execute",
+          "slot": 0,
+          "job": 4,
+          "kind": "spot",
+          "mode": "run",
+          "interrupted": false
+        },
+        {
+          "type": "work",
+          "slot": 0,
+          "job": 4,
+          "progress": 1
+        }
+      ]
+    },
+    {
+      "t": 43,
+      "action": 0,
+      "cost": 0,
+      "spent": 183,
+      "reward": -2.08,
+      "events": [
+        {
+          "type": "release",
+          "slot": 0,
+          "job": 4,
+          "reason": "resize",
+          "lost": 1
+        },
+        {
+          "type": "expire",
+          "job": 4
+        }
+      ]
+    }
+  ],
+  "verdict": {
+    "success": true,
+    "reasons": [],
+    "completed": 11,
+    "missed": 1,
+    "spent": 183,
+    "lost_work": 4,
+    "interruptions": 1
+  }
+}

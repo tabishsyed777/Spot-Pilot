@@ -1,0 +1,1 @@
+{"success": true, "interrupted_at_step": 17, "resumed_from_step": 15, "recomputed_steps": 2, "total_steps": 40, "elapsed_seconds": 0.5024301479970745, "final_digest": "15e232b3ef4384da4300bde636b536b1436fe0672114e9a6ee3827bd082cb3ea", "note": "Real local process experiment; timing does not calibrate the scheduling simulator."}
