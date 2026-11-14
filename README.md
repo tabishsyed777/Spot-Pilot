@@ -1,5 +1,9 @@
 # SpotPilot
 
+[![Checks](https://github.com/tabishsyed777/Spot-Pilot/actions/workflows/ci.yml/badge.svg)](https://github.com/tabishsyed777/Spot-Pilot/actions/workflows/ci.yml)
+![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 ### Reinforcement learning for cloud scheduling — by Tabish Syed
 
 **Learn when to use cheap, interruptible compute, when to pay for reliability, and when to checkpoint work—all under a hard budget.**
@@ -21,6 +25,8 @@ The default trained policy completed **70.75%** of jobs in the standard suite, v
 Requires Python 3.10+; Python 3.11 or 3.12 is recommended. No cloud account, API key, GPU, or paid service is required. Run from the repository root:
 
 ```bash
+git clone https://github.com/tabishsyed777/Spot-Pilot.git
+cd Spot-Pilot
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -e '.[dev]'
